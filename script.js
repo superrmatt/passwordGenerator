@@ -2,7 +2,7 @@ var clipboard = new Clipboard('.copy');
 var lowercase = "abcdefghijklmnopqrstuvwxyz",
   uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
   nums = "0123456789",
-  specialChars = "!@#$%^&*()_+~`|}{[]:;?><,./-=",
+  specialChars = "!@#$%^&*()_+~`|}{[]:;?,./-=",
   lowercaseInput = document.getElementById("lowercase"),
   uppercaseInput = document.getElementById("uppercase"),
   specialInput = document.getElementById("punctuation"),
